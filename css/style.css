@@ -133,6 +133,7 @@ ul {
   display: inline-block;
   white-space: nowrap;
   border: none;
+  cursor: pointer;
   background: var(--skin-color);
   transition: all 0.3s ease;
 }
@@ -492,7 +493,8 @@ h3.my-profession {
   margin-bottom: 12px;
   color: var(--text-black-700);
 }
-.about .about-content .timeline .timeline-date .fa {
+.about .about-content .timeline .timeline-date .fa,
+.about .about-content .timeline .timeline-date .fab {
   margin-right: 5px;
 }
 .about .about-content .timeline .timeline-title {
@@ -538,7 +540,8 @@ h3.my-profession {
   text-align: center;
   transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner .icon .fa {
+.service .service-item .service-item-inner .icon .fa,
+.service .service-item .service-item-inner .icon .fab {
   font-size: 40px;
   line-height: 60px;
   color: var(--skin-color);
@@ -546,7 +549,8 @@ h3.my-profession {
 .service .service-item .service-item-inner:hover .icon {
   background-color: var(--skin-color);
 }
-.service .service-item .service-item-inner:hover .icon .fa {
+.service .service-item .service-item-inner:hover .icon .fa,
+.service .service-item .service-item-inner:hover .icon .fab {
   font-size: 25px;
   color: #ffffff;
 }
@@ -613,7 +617,8 @@ h3.my-profession {
 .contact .contact-info-item .icon {
   display: inline-block;
 }
-.contact .contact-info-item .icon .fa {
+.contact .contact-info-item .icon .fa,
+.contact .contact-info-item .icon .fab {
   font-size: 25px;
   color: var(--skin-color);
 }
